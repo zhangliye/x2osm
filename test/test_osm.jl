@@ -114,5 +114,4 @@ function create_osm()
     # write("/Users/zhangliye/Downloads/small3.osm", doc)
 end
 
-
 create_osm()

@@ -36,7 +36,7 @@ function extract_node(osm, shp, id_name="id", type_name="type")
             # id_source = AG.getfield(f, 2)
             # name = AG.getfield(f, 3)
             if id!=0 
-                add_node!(osm, string(id), lat, lng)
+                add_node!(osm, string(id), lng, lat)
             end
 
             n += 1
