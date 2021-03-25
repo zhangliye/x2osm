@@ -1,5 +1,12 @@
 module x2osm
 
-greet() = print("Hello World!")
+using GeoInterface
+using ArchGDAL
+using EzXML
+const AG = ArchGDAL
+
+export create_osm
+
+include("shp2osm.jl")
 
 end # module
